@@ -1,0 +1,70 @@
+div#demo {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	height: auto;
+	background-color: hsl(240, 80%, 90%);
+	overflow: hidden;
+}
+div#demo svg {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+body {
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	gap: 16px;
+	padding-top: 32px;
+}
+
+#download {
+	align-self: flex-end;
+}
+
+select,
+input {
+	border-radius: 0px;
+	height: 32px;
+	border: 1px solid black;
+	width: 256px;
+}
+button {
+	cursor: pointer;
+	border-radius: 0px;
+	border: 1px solid black;
+	height: 32px;
+	background-color: white;
+}
+button:hover {
+	background-color: black;
+	color: white;
+}
+h1 {
+	align-self: flex-start;
+}
+p {
+	align-self: flex-start;
+}
+
+label {
+	display: flex;
+	justify-content: space-between;
+	gap: 16px;
+}
+#calculator {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	align-self: flex-start;
+}
+
+footer {
+	width: 100%;
+	text-align: right;
+}
