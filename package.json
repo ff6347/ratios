@@ -1,0 +1,16 @@
+{
+  "name": "ratios",
+  "version": "0.1.0",
+  "description": "A tool to calculate the dimensions for a given aspect ratio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ff6347 <hash@ff6347.email>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "netlify-cli": "17.36.4"
+  }
+}
