@@ -21,6 +21,7 @@ body {
 	align-items: center;
 	gap: 16px;
 	padding-top: 32px;
+	height: auto;
 }
 
 #download {
